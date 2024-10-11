@@ -1,5 +1,5 @@
 <script setup>
-import UserNavBar from '@/components/common/UserNavBar.vue'
+import userNavBar from '@/components/common/userNavBar.vue'
 import UpdatePersonalInfo from '@/components/common/profile/updatePersonalInfo.vue'
 import PaymentManager from '@/components/common/profile/paymentManager.vue'
 import { useUserStore } from '@/stores/userStore'
@@ -22,7 +22,7 @@ const user = userStore.user
 
 <template>
     <Toast />
-    <UserNavBar />
+    <userNavBar />
   <div>
     <div class="container mx-auto dark:bg-gray-800">
       <div class="mt-10">

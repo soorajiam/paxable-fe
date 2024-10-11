@@ -20,7 +20,7 @@ import { onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import { useUserStore } from '@/stores/userStore';
 
-const API_ROOT_URL = import.meta.env.VITE_API_ROOT_URL || 'http://127.0.0.1:8000/api/';
+const API_ROOT_URL = import.meta.env.VITE_API_ROOT_URL || 'http://127.0.0.1:8000/';
 const router = useRouter();
 const userStore = useUserStore();
 

@@ -1,5 +1,5 @@
 <template>
-    <UserNavBar />
+    <userNavBar />
   <div class="p-4">
     <h1 class="text-3xl font-bold mb-6">User Dashboard</h1>
     
@@ -74,7 +74,7 @@ import Card from 'primevue/card';
 import Chart from 'primevue/chart';
 import Timeline from 'primevue/timeline';
 
-import UserNavBar from '@/components/common/userNavBar.vue';
+import userNavBar from '@/components/common/userNavBar.vue';
 
 const chartData = ref({
   labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
