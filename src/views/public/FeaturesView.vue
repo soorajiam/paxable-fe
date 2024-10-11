@@ -147,5 +147,5 @@
 </template>
 
 <script setup lang="ts">
-import PublicNavBar from "@/components/common/publicNavBar.vue";
+import publicNavBar from "@/components/common/publicNavBar.vue";
 </script>

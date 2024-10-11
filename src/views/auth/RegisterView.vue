@@ -11,7 +11,7 @@ import Divider from 'primevue/divider'
 import Password from 'primevue/password'
 import { useRouter } from 'vue-router'
 import { useUserStore } from '@/stores/userStore'
-import PublicNavBar from '@/components/common/PublicNavBar.vue'
+import publicNavBar from '@/components/common/publicNavBar.vue'
 
 const router = useRouter()
 const email = ref('')
@@ -66,7 +66,7 @@ const navigateToLogin = () => {
 </script>
 
 <template>
-  <PublicNavBar />
+  <publicNavBar />
   <Toast />
   <div class="flex justify-center items-center min-h-screen bg-gradient-to-r from-blue-500 to-purple-600">
     <Card class="w-full max-w-md shadow-2xl bg-white dark:bg-gray-800 rounded-lg overflow-hidden transform ">

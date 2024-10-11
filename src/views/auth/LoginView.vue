@@ -10,7 +10,7 @@ import { useDark } from '@vueuse/core'
 import { useUserStore } from '@/stores/userStore'
 import { useRouter } from 'vue-router'
 
-import PublicNavBar from '@/components/common/PublicNavBar.vue'
+import publicNavBar from '@/components/common/publicNavBar.vue'
 
 const email = ref('')
 const password = ref('')
@@ -51,7 +51,7 @@ const loginWithGoogle = () => {
 </script>
 
 <template>
-  <PublicNavBar />
+  <publicNavBar />
   <div class="flex justify-center items-center min-h-screen bg-gradient-to-r from-blue-500 to-purple-600">
     <Card class="w-full max-w-md shadow-2xl bg-white dark:bg-gray-800 rounded-lg overflow-hidden transform ">
       <template #title>
